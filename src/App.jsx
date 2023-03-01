@@ -1,3 +1,5 @@
+import Footer from './Footer';
+
 function App() {
   const name = "Jair Romero Peña";
   return (
@@ -8,6 +10,9 @@ function App() {
         <li>Ver Anime</li>
         <li>Escuchar Musica</li>
       </ul>
+      <hr />
+      <Footer />
+
     </di>
   )
 }
